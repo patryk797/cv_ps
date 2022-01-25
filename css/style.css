@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+    color: lightgoldenrodyellow;
+    
+  }
+
+.name-div{
+    position: absolute;
+    padding-left: 50%;
+    padding: none;
+    width: 100%;
+    text-align: center;
+}
+.name {
+    text-align: center;
+    background: linear-gradient(to right, lightblue 20%, lightgoldenrodyellow 40%, lightblue 60%, lightgoldenrodyellow 80%);
+    background-size: 20% auto;
+    color: #000;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 1s linear infinite;
+    font-size: 250%;
+}
+
+@keyframes shine {
+      to {
+        background-position: 50% center;
+      }
+    }
+  
+.photo{
+    position: relative;
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border: 2px solid lightgoldenrodyellow;
+    border-radius: 100%;
+    background-image: url();
+    background-size: cover;
+    transition: all 1s;
+}
+.photo:hover{
+    height: 600px;
+    width: 600px;
+    border: 10px groove lightblue; 
+    background-image: url(unknown_4.jpg);
+}
+
+.link {
+    text-decoration: none;
+    color: lightgoldenrodyellow;
+    
+}
+
+.link:hover {
+    color: lightblue;
+    text-shadow: lightblue;
+    
+}
+h1, h2, h3, h4{
+    text-align: center;
+    
+}
+h2{
+    color: #defe47;
+    font-size: 2em;
+    text-shadow: 0 0 10px #defe47;
+}
+p{
+    text-size-adjust: 10px;
+}
+hr{
+    width: 100%;
+    border-top: 3px groove lightblue;
+    border-bottom: 3px groove lightgoldenrodyellow;
+}
+.name-hr{
+    padding-right: 100%;
+    width: 150px;
+    border-top: 3px groove lightblue;
+    border-bottom: 3px groove lightgoldenrodyellow;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-phone:hover{
+    color: turquoise;
+}
+.fa-google:hover{
+    color: red;
+}
+
+.fa-github:hover{
+    color: rgb(37, 34, 34);
+}
+.fa-linkedin:hover{
+    color: rgb(3, 129, 187);
+}
+
+.umiem > ul {
+    list-style: none;
+}
+
+.umiem li {
+    margin: 20px 0;
+}
+
+.bar {
+    background-color: lightgoldenrodyellow;
+    display: block;
+    height: 10px;
+    border: 2px groove lightblue;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px lightblue;
+}
+
+.bar span {
+    height: 10px;
+    float: left;
+    background-color: red;
+}
+
+.html {
+    width: 60%;
+    animation: html 2s;
+}
+
+.css {
+    width: 50%;
+    animation: css 2s;
+}
+
+.js {
+    width: 40%;
+    animation: js 2s;
+}
+
+.jq {
+    width: 35%;
+    animation: jq 2s;
+}
+
+.boots {
+    width: 40%;
+    animation: boots 2s;
+}
+
+.sass {
+    width: 40%;
+    animation: sass 2s;
+}
+
+img {
+    border-radius: 5px;
+}
+
+
+figure {
+ text-align: center;
+}
+
+img {
+    transition: all .3s;
+}
+
+img:hover {
+    width: 500px;
+    height: 300px;
+    
+}
+
+footer{
+    background-image: url(ciemne-wnetrze-grunge-z-zadymiona-atmosfera_1048-11822.jpg);
+}
+p{
+    text-align: center;
+    font-size: 120%;
+    
+}
+
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes js {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+
+@keyframes jq {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 35%;
+    }
+}
+
+@keyframes boots {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+
+@keyframes sass {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+
